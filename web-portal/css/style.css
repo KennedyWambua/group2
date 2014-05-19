@@ -45,8 +45,17 @@ h3 {
 	font-size: 28px;
 }
 
-nav, li.indicator {
+nav {
 	background-color: #2F6C9B;
+}
+li.indicator{
+	border-right: #ccc;
+	border-left:#ccc;
+	border-top:#ccc;
+    border-bottom: #ccc;
+    border: 1px solid #ccc;
+	color: #3162C5; 
+	text-decoration: none;
 }
 li{
 /*background-color:#2F6C9B;*/
@@ -55,6 +64,7 @@ font-weight: normal;
 line-height: 26px;
 letter-spacing: -1px;
 color: #fff;
+
  /*float: left;*/
     list-style-type: none;
    /* display: inline-block;*/
@@ -122,6 +132,7 @@ li.indicator {
 	background-repeat: no-repeat;
 	background-position: 33px center;
     font-size: 18px;
+
 }
 
 #title {
@@ -144,18 +155,17 @@ li.indicator {
 .wp-north {
 	height: 56px;
 	border: 0 none;
-	background-color: #3D3D3D;
-	background-image: url('../img/stripe3.jpg');
-
+	background-color: #276696;
+	background-image: url('../img/dhis.jpg');
+	 background-position: absolute;
+	 background-repeat: no-repeat;
+	 background-position: 13px,0px,0px,55px;
 	padding-left: 12px;
 }
 
 .wp-center {
 	border: 0 none;
 	padding: 15px 30px 30px;
-	/*background-color: #F8FBFC;*/
-	background-image: url('../img/bg.jpg');
-
 	color: #2D3C46;
 
 }
@@ -164,7 +174,7 @@ li.indicator {
 	border: 0 none;
 	width: 200px;
 	height: inherit;
-	background-image: url('../img/menubg1.jpg');
+	background-color: #0076a3;
 	border-radius: 0px 0px 10px 10px;
 	/*background-color: #1d5987;*/
 
